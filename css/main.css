@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 Georgia, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #ffe500;
+}
