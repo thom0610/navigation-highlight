@@ -20,11 +20,12 @@ h1 {
   text-align: center;
   font-size: 3rem;
 }
+
 h2 {
   font-size: 1.875rem;
 }
 
-h1,h2 {
+h1, h2 {
   color: #b20953;
   font-family: "Sigmar One", cursive;
 }
@@ -38,15 +39,17 @@ h1,h2 {
 
 .nav li {
   display: inline-block;
+  margin-bottom: .3em;
 }
 
 .nav a {
   color: #fff;
   display: inline-block;
-  padding: 0.5em 0.75em;
+  padding: .2em .5em .3em;
   border-radius: 4px;
   background-color: #b2a212;
   text-decoration: none;
+  font-size: 1.125rem;
 }
 
 nav a:hover {
@@ -56,8 +59,18 @@ nav a:hover {
 .nav .current {
   background-color: #cc1465;
 }
+
+p {
+
+}
+
+main {
+  padding: 0 .75em;
+}
+
 footer {
   background-color: #ffe500;
   text-align: center;
   display: block;
+  font-size: .75em;
 }
